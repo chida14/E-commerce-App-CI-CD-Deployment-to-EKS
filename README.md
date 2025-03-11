@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 **Note:** This project is a fork of `opentelemetry-demo`. Thanks to the team and contributors for opensourcing this wonderful demo project. Definitely one of the best on internet.
 
 <!-- markdownlint-disable-next-line -->
@@ -139,3 +140,6 @@ Emeritus:
 [Teletrace]: https://github.com/teletrace/opentelemetry-demo
 [Tracetest]: https://github.com/kubeshop/opentelemetry-demo
 [Uptrace]: https://github.com/uptrace/uptrace/tree/master/example/opentelemetry-demo
+=======
+# E-commerce-App-CI-CD-Deployment-to-EKS
+>>>>>>> 6e16a4bbbe3da077b1ac06a1c68cbd85a54e2de2
