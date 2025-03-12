@@ -82,6 +82,8 @@ jobs:
       
     updatek8s:
         runs-on: ubuntu-latest
+        permissions: 
+          contents: write
 
         needs: docker
 
@@ -101,5 +103,5 @@ jobs:
             git config --global user.name "Chida"
             git add kubernetes/productcatalog/deploy.yaml
             git commit -m "[CI]: Update product catalog image tag"
-            git push
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/chida14/E-commerce-App-CI-CD-Deployment-to-EKS.git HEAD:cicheck
 
