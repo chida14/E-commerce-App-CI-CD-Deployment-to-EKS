@@ -22,7 +22,7 @@ jobs:
 
         - name: Build
           run:
-            go build -o product-catalog-service src/product-catalogmain.go
+            go build -o product-catalog-service src/product-catalog/main.go
 
         - name: unit tests
           run: |
